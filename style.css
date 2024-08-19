@@ -7,6 +7,7 @@
   margin: 12%;
   width: 90%;
   max-width: 700px;
+  
 }
 .display{
     width: 100%;
@@ -26,4 +27,42 @@
     max-width: 10%;
     height: auto;
     
+}
+.container h1{
+    font-weight: 500;
+    font-size: 45px;
+
+}
+.container h1 span{
+    color: #019f55;
+    border-bottom: 4px solid #019f55;
+    padding-bottom: 2px;
+}
+.display img{
+    width: 20%;
+    cursor: pointer;
+}
+.display input{
+    border: 0;
+    outline: 0;
+    font-size: 1.5rem;
+}
+.generate{
+    width: 2rem;
+    height:auto;
+
+}
+.container button{
+    width: 15rem;
+    border: 0;
+    outline: 0;
+    background: #019f55;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 200;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 26px;
+    cursor: pointer;
 }
